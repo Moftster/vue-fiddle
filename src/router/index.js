@@ -22,7 +22,18 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: () => import('../views/Contact.vue')
+  }, 
+  {
+    path: '/mytodos',
+    name: 'mytodos',
+    component: () => import('../views/MyTodos.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/Login.vue')
   }
+
 ]
 
 const router = new VueRouter({
